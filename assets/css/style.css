@@ -1,0 +1,180 @@
+:root{
+--yellow: #F9F54B;
+--lightblue: #8BF5FA;
+--mediumblue: #52cfd5;
+--darkblue: #3F979B;
+--mathtext: "math";
+}
+body{
+    margin: 0px;
+}
+.all-content{
+    background: var(--yellow);
+}
+
+header{
+    /* height: 39vh; */
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding-left: 15%;
+    font-size: 30px;
+}
+.links{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+.aboutlink{
+    text-align: center;
+    border: 2px solid rgb(142, 151, 7);
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+   
+}
+.aboutlink a{
+    text-decoration: none;
+    color: red;
+}
+.contactlink{
+    text-align: center;
+    border: 2px solid rgb(142, 151, 7);
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+    
+}
+.contactlink a{
+    text-decoration: none;
+    color: red;
+}
+.projectslink{
+    text-align: center;
+    border: 2px solid rgb(142, 151, 7);
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+    
+}
+.projectslink a{
+    text-decoration: none;
+    color: red;
+}
+.avatar img{
+    width: 90%;
+}
+
+.about{
+    background: var(--lightblue);
+    padding: 2%;
+    min-height: 50vh;
+}
+.contact{
+    background: var(--mediumblue);
+    padding: 2%;
+    min-height: 50vh;
+}
+.projects{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background: var(--darkblue);
+    height: 100%;
+    
+    
+}
+
+.aboutspan, .projectspan, .contactspan{
+    text-align: left;
+    font-size: 30px;
+    font-family: var(--mathtext);
+    width: 100%;
+    padding-bottom: 3%;
+    
+}
+.favorite, .hobbies{
+    width: 100%;
+}
+.contactitems ul {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 3%;
+}
+.contactitems ul li{
+    width: 30%;
+    padding: 1%;
+}
+.app-1{
+    width: 100%;
+    border: 3px solid rgb(16, 60, 7);
+    display: inline-flex;
+}
+.app-1 a{
+   width: 40%;
+}
+.app-1 img{
+    width: 95%;
+    height: 100%;
+}
+.app-2, .app-3{
+    width: 42%;
+    padding: 47px;
+    display: flex;
+    border: 3px solid rgb(16, 60, 7);
+}
+.app-2 img , .app-3 img{
+    height: 80%;
+    width: 100%;
+}
+.aboutlist{
+    display: flex;
+    width: 80%;
+    padding-top: 3%;
+}
+.calculator-text{
+   width: 50%;
+}
+.tic-tac-toe-text, .bingotext{
+    width: 45%;
+    padding: 3%;
+}
+.footer{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer h3{
+    width: 100%;
+    margin-left: 45%;
+}
+.footer ul{
+    width: 100%;
+    display: flex;
+    padding-left: 17%;
+}
+.footer ul li{
+    width: 30%;
+    
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    padding-left: 15%;
+}
+
+
+
+
+
