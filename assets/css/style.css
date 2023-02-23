@@ -13,7 +13,6 @@ body{
 }
 
 header{
-    /* height: 39vh; */
     display: inline-flex;
     width: 100%;
     flex-wrap: wrap;
@@ -38,7 +37,6 @@ header{
     border-radius: 5px;
     width: 20%;
     height: 10%;
-   
 }
 .aboutlink a{
     text-decoration: none;
@@ -93,13 +91,18 @@ header{
     
 }
 
-.aboutspan, .projectspan, .contactspan{
-    text-align: left;
+.aboutspan,  .contactspan{
     font-size: 30px;
     font-family: var(--mathtext);
     width: 100%;
-    padding-bottom: 3%;
+    padding: 2% 0 2% 40%;
     
+}
+.projectspan{
+    font-size: 30px;
+    font-family: var(--mathtext);
+    width: 100%;
+    padding: 2% 0 2% 40%;
 }
 .favorite, .hobbies{
     width: 100%;
@@ -150,9 +153,7 @@ header{
     padding: 3%;
 }
 .footer{
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+   padding-bottom: 1%;
 }
 .footer h3{
     width: 100%;
@@ -173,6 +174,82 @@ header{
     width: 65%;
     padding-left: 15%;
 }
+
+@media screen and (max-width: 1250px) {
+    
+    .projectslink, .contactlink,.aboutlink{
+        width: 25%;
+        height: 15%;
+        margin-left: 5%;
+    }
+    .avatar{
+        margin-left: 35%;
+    }
+    .name{
+        padding-left: 30%;
+    }
+    .app-2, .app-3{
+        width: 49%;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutlink{
+        height: 20%;
+        margin: 15px;
+        width: 20%;
+    }
+    .contactlink{
+        height: 20%;
+        margin: 15px;
+        width: 20%;
+    }
+    .projectslink{
+        height: 20%;
+        margin: 15px;
+        width: 20%;
+    }
+   .avatar{
+    margin-left: 28%;
+   }
+   .name{
+    padding-left: 20%;
+   }
+    .aboutspan, .contactspan{
+        padding: 2% 0 2% 25%;
+    }
+    .contactitems ul li {
+        width: 100%;
+    }
+    .app-1 a{
+        width: 100%;
+        padding: 3%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .app-2, .app-3{
+        width: 100%;
+    }
+    .footer ul{
+        padding-left: 10%;
+    }
+    .footer h3 {
+        margin-left: 33%;
+    }
+    .app-3 img{
+        
+        width: 84%;
+    }
+    .aboutlist{
+        width: 95%;
+    }
+    .contact, .about{
+        min-height: 30vh;
+    }
+
+}
+
 
 
 
